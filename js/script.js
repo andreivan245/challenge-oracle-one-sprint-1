@@ -30,7 +30,11 @@ function descriptografar() {
     captar = captar.replace(/ober/g, "o");
     captar = captar.replace(/ufat/g, "u");
 
+    document.getElementById("resultado").style.display = "flex";
+    document.getElementById("bt-copiar").style.display = "inline";
     document.getElementById('resultado').value = captar;
+    document.getElementById("txt-retangulo").style.display = "none";
+    document.getElementById("homem").style.display = "none"
     document.getElementById('texto').value = "";
 
     window.scrollTo(0, heightPage);
