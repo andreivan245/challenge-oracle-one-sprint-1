@@ -26,7 +26,7 @@ Exemplos:<br>
 # Design e Responsividade
 
 <p>O design usado foi o sugerido pela a Alura: <a href="https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?node-id=2%3A213">Figma</a></p>
-<p>Foram feitas algumas alterações no desigen original, como por exemplo a adição do copyright e dos links para o meu Linkedin e Github no fim de cada tela, nas imagens abaixo pode ser observada essa alteração.</p>
+<p>Foram feitas algumas alterações no desigen original, como por exemplo a adição do copyright e dos links para o meu Linkedin e GitHub no fim de cada tela, nas imagens abaixo pode ser observada essa alteração.</p>
 <p>Também pode ser observado nas imagens abaixo as telas de tablet e mobile no modo paisagem, por não haver um design expecífico para esse tipo de modo no modelo do Figma, optei por escolher como as telas iria se comportar em modo paisagem.</p>
 
 <h2>Mobile</h2>
