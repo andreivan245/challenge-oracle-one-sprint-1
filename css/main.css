@@ -1,0 +1,524 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+
+    background: #F3F5FC;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+
+
+
+}
+
+/* div do logo */
+.logo {
+    display: flex;
+    height: 13vh;
+    width: 10vw;
+    justify-content: center;
+
+}
+
+
+.img-logo {
+
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 10%;
+    min-width: 10%;
+    margin-top: 6vh;
+    margin-left: 4vw;
+}
+
+/* div do container do texto e dos botoes*/
+.container {
+    display: flex;
+    height: 100vh;
+    width: 60vw;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.texto {
+
+    height: 95vh;
+    width: 50vw;
+    margin: 15vh 0vw 1.4vh 7.7vw;
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 5.2vh;
+    background: transparent;
+    border-style: none;
+    outline: 0;
+    resize: none;
+    text-transform: lowercase;
+    justify-content: start;
+
+}
+
+
+.texto::placeholder {
+
+    text-transform: none;
+    color: #0A3871;
+
+}
+
+.bt {
+
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 60vw;
+    margin-left: 17.8vw;
+    margin-bottom: 6.9vh;
+
+}
+
+.bt-criptografar {
+
+    width: 20vw;
+    height: 8.5vh;
+    background: #0A3871;
+    border-radius: 3.5vh;
+    border: 0.4vh solid #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 2.7vh;
+    color: #FFFFFF;
+    margin: 0 1.5vw 0 0;
+
+
+
+
+}
+
+.bt-descriptografar {
+
+    width: 20vw;
+    height: 8.5vh;
+    background: transparent;
+    border: 0.3vh solid #0A3871;
+    border-radius: 3.5vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 2.7vh;
+    color: #0A3871;
+    margin: 0 0 0 1.5vw;
+
+
+}
+
+
+.aviso {
+
+    display: flex;
+    margin: 0 11vw 0vh 0vw;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #495057;
+    opacity: 0.8;
+    width: 30vw;
+    height: 10vh;
+    align-items: center;
+
+
+}
+
+.txt-aviso {
+    padding-left: 0.5vw;
+    font-size: 2vh;
+    width: 18vw;
+}
+
+.img-aviso {
+    
+    height: 2vh;
+
+}
+
+
+
+
+/* div do retangulo */
+.retangulo {
+
+    display: flex;
+    width: 40vw;
+    height: 95vh;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 5vh;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.5vh 4vw;
+
+
+}
+
+.homem {
+    margin-top: 12vh;
+    height: 42vh;
+    width: 22vw;
+    max-height: 75%;
+    max-width: 75%;
+
+}
+
+.txt-retangulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4vh 0 0 0;
+}
+
+.msg-retangulo1 {
+
+    width: 20vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3vh;
+    text-align: center;
+
+}
+
+
+.msg-retangulo2 {
+
+    width: 20vw;
+    margin: 1.5vh 0 0 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+    text-align: center;
+
+}
+
+
+
+.tela {
+
+    display: none;
+    background-color: transparent;
+    height: 66.4vh;
+    width: 18vw;
+    margin: 5vh 0 0 2vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 4vh;
+    color: #495057;
+    resize: none;
+    border-style: none;
+    outline: 0;
+    text-transform: lowercase;
+
+}
+
+.bt-copiar {
+    display: none;
+    width: 20vw;
+    height: 8.5vh;
+    background: transparent;
+    border-radius: 3.5vh;
+    border: 0.3vh solid #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 2.7vh;
+    color: #0A3871;
+    margin: 10.7vh 0 0 0;
+
+}
+
+/* div dos creditos*/
+.contatos {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    width: 100vw;
+    height: 7vh;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.creditos {
+
+    font-size: 2.5vh;
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    padding-top: 0.4vh;
+    padding-right: 0.5vw;
+
+
+
+}
+
+.img-git,
+.img-linkedin {
+    height: 3.9vh;
+    padding: 1.2vh 0.5vw;
+
+}
+
+
+
+@media screen and (orientation: portrait) and (max-width: 980px) {
+    body {
+        flex-direction: column;
+
+    }
+
+    .logo {
+        width: 18vw;
+        height: 100vh;
+        margin: 0;
+        align-items: center;
+
+    }
+
+    .img-logo {
+        margin-left: 7vw;
+        min-width: 35%;
+        min-height: 35%;
+    }
+
+
+    .container {
+        width: 100vw;
+
+    }
+
+    .texto {
+        width: 80vw;
+        height: 50vh;
+        margin: 10vh 4.5vw 0 0;
+        align-items: flex-start;
+    }
+
+    .aviso {
+        width: 90vw;
+        height: 5vh;
+        margin: 0 0 0 8vw;
+        font-size: 1.6vh;
+    }
+
+    .img-aviso {
+        padding: 0.1vh 1vw;
+        height: 2vh;
+    }
+
+    .txt-aviso {
+        width: 60vw;
+    }
+
+    .bt {
+        height: 30vh;
+        width: 100vw;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+
+    }
+
+    .bt-criptografar,
+    .bt-descriptografar {
+        margin: 1.6vh 0 0 0;
+        width: 83.5vw;
+        height: 9vh;
+        border-radius: 3.2vh;
+
+    }
+
+    .retangulo {
+        margin: 0 0 0vh 0;
+        padding: 0;
+        align-self: center;
+        height: 100vh;
+        width: 83.5vw;
+    }
+
+    .homem {
+        display: none;
+    }
+
+    .txt-retangulo {
+        margin: 4vh 0;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .msg-retangulo1 {
+        width: 70vw;
+        font-size: 3vh;
+
+
+    }
+
+    .msg-retangulo2 {
+        width: 70vw;
+        font-size: 1.8vh;
+    }
+
+    .tela {
+        width: 68vw;
+        height: 60vh;
+    }
+
+    .bt-copiar {
+        width: 65vw;
+        height: 9vh;
+        margin: 4.5vh 0;
+
+    }
+
+    .contatos {
+        position: relative;
+        bottom: auto;
+        width: 100vw;
+        height: 10vh;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
+}
+
+@media screen and (orientation: landscape)  and (max-width: 1023px) {
+    body {
+        flex-direction: column;
+
+    }
+
+    .logo {
+        margin: 0vh 0.4vw;
+
+    }
+
+    .img-logo {
+        margin-top: 8vh;
+        height: 48px;
+        width: 31px;
+    }
+
+    .container {
+        width: 100vw;
+
+
+    }
+
+    .texto {
+        width: 81vw;
+        height: 55vh;
+        margin: 12vh 7.5vw 0 0vw;
+        align-items: flex-start;
+    }
+
+    .aviso {
+        width: 70vw;
+        margin: 0 16vw 0 0;
+        font-size: 1.4vh;
+
+    }
+
+    .txt-aviso {
+        margin-top: 0.1vh;
+        width: 40vw;
+    }
+
+    .img-aviso {
+        margin-top: 0.25vh;
+        height: 1.6vh;
+    }
+
+    .bt {
+        height: 20vh;
+        width: 100vw;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+
+    }
+
+    .bt-criptografar {
+        margin: 1.6vh 2vw 11vh 6vw;
+        width: 80vw;
+        height: 9vh;
+        border-radius: 3.2vh;
+
+    }
+
+    .bt-descriptografar {
+        margin: 1.6vh 6vw 11vh 2vw;
+        width: 80vw;
+        height: 9vh;
+        border-radius: 3.2vh;
+    }
+
+    .retangulo {
+        margin: 0 0 0vh 0;
+        padding: 0;
+        align-self: center;
+        height: 100vh;
+        width: 88vw;
+    }
+
+    .homem {
+        display: none;
+    }
+
+    .txt-retangulo {
+        margin: 4vh 0;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .msg-retangulo1 {
+        width: 85vw;
+        font-size: 3.6vh;
+
+
+    }
+
+    .msg-retangulo2 {
+        width: 65vw;
+        font-size: 2.4vh;
+    }
+
+    .tela {
+        width: 75vw;
+        height: 60vh;
+    }
+
+    .bt-copiar {
+        width: 73vw;
+        height: 9vh;
+        margin: 4.5vh 0;
+
+    }
+
+    .contatos {
+        position: relative;
+        bottom: auto;
+        width: 100vw;
+        height: 10vh;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+
+    }
+
+
+}

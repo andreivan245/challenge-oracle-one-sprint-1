@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8" />
+    <link href="./css/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="./js/script.js" defer></script>
+
+    <title>Decodificador de texto</title>
+
+</head>
+
+<body>
+
+
+
+    <div class="logo">
+
+        <img class="img-logo" src="img/Vector.png">
+
+    </div>
+
+
+
+    <div class="container">
+
+        <textarea class="texto" id="texto" placeholder="Digite seu texto"></textarea>
+
+        <div class="aviso">
+
+            <img class="img-aviso" src="img/Aviso.png">
+            <p class="txt-aviso">Apenas letras minúsculas e sem acento.</p>
+
+        </div>
+
+        <div class="bt">
+
+            <button class="bt-criptografar" onclick="criptografar()">Criptografar</button>
+
+            <button class="bt-descriptografar" onclick="descriptografar()">Descriptografar</button>
+
+        </div>
+
+    </div>
+
+    <div class="retangulo">
+
+        <textarea class="tela" id="resultado" readonly></textarea>
+
+        <img class="homem" src="img/homem.png" id="homem">
+
+        <div class="txt-retangulo" id="txt-retangulo">
+
+            <p class="msg-retangulo1">Nenhuma mensagem encontrada</p>
+            <p class="msg-retangulo2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+
+        </div>
+
+        <button class="bt-copiar" id="bt-copiar" onclick="copiar()">Copiar</button>
+
+    </div>
+
+
+    <footer class="contatos">
+
+        <p class="creditos">&copy; André Castro</p>
+        <a href="https://www.linkedin.com/in/andr%C3%A9-castro-3ab614178/" style="text-decoration:none">
+            <img class="img-linkedin" src="img/linkedin.png"></a>
+        <a href="https://github.com/andreivan245" style="text-decoration:none">
+            <img class="img-git" src="img/git.png"></a>
+
+    </footer>
+
+
+</body>
+
+
+
+</html>
