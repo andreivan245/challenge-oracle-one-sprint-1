@@ -21,7 +21,7 @@ Exemplos:<br>
 <p><strong>Observação:</strong> O decodificador de texto somente funcionara com textos que contenham apenas letras minúsculas não acentuadas e com ausência de caracteres especiais.</p>
 
 # Objetivos
-<p>Essa aplicação tem como principal objetivo o estudo e desenvolvimento de HTML5, CSS3 e JavasScript. Conceitos como responsividade também estão sendo trabalhados nessa aplicação, uma vez que não há a utilização de freamworks, logo, essa é uma aplicação web responsiva toda feita com CSS3.</p>
+<p>Essa primeira aplicação tem como principal objetivo o estudo e desenvolvimento de HTML5, CSS3 e JavasScript. Conceitos como responsividade também estão sendo trabalhados nessa aplicação, uma vez que não há a utilização de freamworks, logo, essa é uma aplicação web responsiva toda feita com CSS3.</p>
 
 # Design e Responsividade
 
