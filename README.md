@@ -28,6 +28,7 @@ Exemplos:<br>
 <p>O design usado foi o sugerido pela a Alura: <a href="https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?node-id=2%3A213">Figma</a></p>
 <p>Foram feitas algumas alterações no desigen original, como por exemplo a adição do copyright e dos links para o meu <a href="https://www.linkedin.com/in/andr%C3%A9-castro-3ab614178/">Linkedin</a> e <a href="https://github.com/andreivan245">GitHub</a> no fim de cada tela, nas imagens abaixo pode ser observada essa alteração.</p>
 <p>Também pode ser observado nas imagens abaixo as telas de tablet e mobile no modo paisagem, por não haver um design expecífico para esse tipo de modo no modelo do Figma, optei por escolher como as telas iria se comportar em modo paisagem.</p>
+<p><strong>Observação:</strong> Todo o CSS foi feito usando as unidades de medida vh e vw.</p>
 
 <h2>Mobile</h2>
 <div align="center">
