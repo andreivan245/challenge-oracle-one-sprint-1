@@ -1,0 +1,9 @@
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-git, .img-linkedin{
+    margin-left: 0.5rem ;
+}

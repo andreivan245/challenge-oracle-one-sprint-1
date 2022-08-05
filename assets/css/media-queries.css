@@ -1,0 +1,71 @@
+@media screen and (min-width: 0px) and (max-width: 1200px){
+    .decodificador {
+
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .texto {
+
+        width: 460px;
+
+    }
+
+    .texto__area {
+        
+        margin: 0 0;
+        width: 100%;
+    
+    }
+    
+    .texto {
+
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .botao{
+        
+        justify-content: space-around;
+        width: 100%;
+
+    }
+
+    .botao__criptografar, .botao__descriptografar {
+        
+        width: 45%;
+        
+    }
+    .botao__copiar {
+        
+        width: 60%;
+        
+    }
+
+
+    .retangulo {
+
+        margin: 0;
+        margin-bottom: 0.2rem;
+        min-height: 350px;
+        min-width: 350px;
+        padding: 0;
+        width: 75%;
+        
+    }
+    .resultado{
+
+        width: 100%;
+
+    }
+
+    .retangulo__img {
+
+        min-height: 200px;
+        min-width: 200px;
+        
+    }
+}

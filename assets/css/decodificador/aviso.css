@@ -1,0 +1,17 @@
+.aviso {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.aviso__img {
+    margin: 0 0.5rem ;
+}
+
+.aviso__texto {
+
+    color: #495057;
+    font-size: 12px;
+    margin-top: 0.2rem;
+    opacity: 0.8;
+    
+}
