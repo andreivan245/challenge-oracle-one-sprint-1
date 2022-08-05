@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Decodificador</title>
+
+        <link rel="stylesheet" href="./assets/css/normalize.css">
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/main.css">
+        <link rel="stylesheet" href="./assets/css/logo.css">
+        <link rel="stylesheet" href="./assets/css/decodificador.css">
+        <link rel="stylesheet" href="./assets/css/rodape.css">
+        <link rel="stylesheet" href="./assets/css/decodificador/texto.css">
+        <link rel="stylesheet" href="./assets/css/decodificador/aviso.css">
+        <link rel="stylesheet" href="./assets/css/decodificador/botoes.css">
+        <link rel="stylesheet" href="./assets/css/decodificador/retangulo.css">
+        <link rel="stylesheet" href="./assets/css/media-queries.css">
+        
+    </head>
+
+    <body>
+
+        
+        
+        <section class="decodificador">
+            
+            
+            <div class="logo">
+                <img src="./assets/img/logo.svg" alt="Logo" class="logo__img">
+            </div>
+
+            <div class="texto">
+                <textarea    class="texto__area" id="texto__area" placeholder="Digite seu texto"></textarea>
+    
+                <div class="bt">
+                    <div class="aviso">
+                        <img src="./assets/img/img-aviso.svg" alt="Imagem de aviso" class="aviso__img">
+                        <p class="aviso__texto">Apenas letras minúsculas e sem acento.</p>
+                    </div>
+                    
+                    <div class="botao">
+                        <button class="botao__criptografar" onclick="criptografar()">Criptografar</button>
+                        <button class="botao__descriptografar" onclick="descriptografar()"  >Descriptografar</button>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            <div class="retangulo">
+                <img src="./assets/img/homem.svg" alt="" class="retangulo__img" id="retangulo__img">
+                <p class="retangulo__texto1" id="retangulo__texto1">Nenhuma mensagem encontrada</p>
+                <p class="retangulo__texto2" id="retangulo__texto2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                
+                <div class="resultado" id="resultado">
+                    <textarea  cols="32"   class="retangulo__resultado" id="retangulo__resultado" readonly></textarea>
+                    <button class="botao__copiar" id="botao__copiar" onclick="copiar()">Copiar</button>
+                </div>
+                
+                
+            </div>
+
+        </section>
+
+
+        <footer class="rodape">
+            <p>&copy André Castro</p>
+            <a class="contato__icon" href="https://www.linkedin.com/in/andr%C3%A9-castro-3ab614178/" style="text-decoration:none">
+                <img class="img-linkedin" src="./assets/img/linkedin-icon.svg"></a>
+            <a class="contato__icon" href="https://github.com/andreivan245" style="text-decoration:none">
+                <img class="img-git" src="./assets/img/github-icon.svg"></a>
+        </footer>
+    </body>
+    <script type="text/javascript" src="./js/script.js" defer></script>
+</html>
